@@ -28,8 +28,7 @@ This piece of code will sigin in to application
 - IsPersistent closely related to ExpiresUtc. 
 - If we ever see about "remember me" checkbox. It relates to IsPersistent value
 - If IsPersistent set to TRUE, then ExpiresUtc will be activated / used. If FALSE then ExpiresUtc won't be considered
-- IsPersistent = TRUE -> Cookie will be removed after expires is happenned. Even though browser is closed, cookie will be exists
-- IsPersistent = FALSE -> Cookie will be removed after browser is closed
+- IsPersistent = TRUE -> Cookie will be removed after expires is happenned
 ```
 await HttpContext.SignInAsync(
     CookieAuthenticationDefaults.AuthenticationScheme,
