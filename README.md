@@ -1,5 +1,5 @@
 # Cookie Based Authentication
-Here we will explain about standard authentication using cookie. This project is implemented in ASP NET Core Web API
+Here we will explain about standard authentication using cookie. This project is implemented in ASP NET Core Web API. There are many kind of authorization. In this repo, just showing a simple authentication. Analogy : We only need to get authorization to enter building and we able to access all resources in all floors and even each room, without limitation
 
 1. Once we have created a solution / project, open startup / program class (based on service configuration is placed)
 
